@@ -1,0 +1,25 @@
+.contacts{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.media{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.contacts-me__email{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .contacts{
+        width: 275px;
+    }
+
+}

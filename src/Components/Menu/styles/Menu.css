@@ -1,0 +1,25 @@
+.navigation-list{
+    position: absolute;
+    /*right: 180px;*/
+    right: 0;
+    top: 139px;
+    list-style-type: none;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Barlow', sans-serif;
+}
+
+@media (max-width: 872px){
+    .navigation-list{
+        position: static;
+        margin: 40px auto;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 400px){
+    .navigation-list{
+        width: 250px;
+    }
+}

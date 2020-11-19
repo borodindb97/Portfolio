@@ -1,0 +1,76 @@
+.skill{
+    width: 200px;
+    height: 300px;
+    /*box-shadow: ;*/
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skill__img{
+    width: 200px;
+    height: 200px;
+}
+
+.skill__img_scaled{
+     -webkit-animation: scaled1 0.3s linear;
+     -o-animation: scaled1 0.3s linear;
+     -moz-animation: scaled1 0.3s linear;
+     animation: scaled1 0.3s linear;
+     animation-fill-mode: forwards;
+ }
+
+.skill__img_no-scaled{
+    -webkit-animation: scaled2 0.3s linear;
+    -o-animation: scaled2 0.3s linear;
+    -moz-animation: scaled2 0.3s linear;
+    animation: scaled2 0.3s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scaled1 {
+    from{
+        -webkit-transform: scaleX(1) scaleY(1);
+        -moz-transform: scaleX(1) scaleY(1);
+        -ms-transform: scaleX(1) scaleY(1);
+        -o-transform: scaleX(1) scaleY(1);
+        transform: scaleX(1) scaleY(1);
+    } 50% {
+         -webkit-transform: scaleX(1.1) scaleY(1.1);
+         -moz-transform: scaleX(1.1) scaleY(1.1);
+         -ms-transform: scaleX(1.1) scaleY(1.1);
+         -o-transform: scaleX(1.1) scaleY(1.1);
+         transform: scaleX(1.1) scaleY(1.1);
+          }
+    to {
+        -webkit-transform: scaleX(1.2) scaleY(1.2);
+        -moz-transform: scaleX(1.2) scaleY(1.2);
+        -ms-transform: scaleX(1.2) scaleY(1.2);
+        -o-transform: scaleX(1.2) scaleY(1.2);
+        transform: scaleX(1.2) scaleY(1.2);
+    }
+}
+
+@keyframes scaled2 {
+    from{
+        -webkit-transform: scaleX(1.2) scaleY(1.2);
+        -moz-transform: scaleX(1.2) scaleY(1.2);
+        -ms-transform: scaleX(1.2) scaleY(1.2);
+        -o-transform: scaleX(1.2) scaleY(1.2);
+        transform: scaleX(1.2) scaleY(1.2);
+
+    } 50% {
+          -webkit-transform: scaleX(1.1) scaleY(1.1);
+          -moz-transform: scaleX(1.1) scaleY(1.1);
+          -ms-transform: scaleX(1.1) scaleY(1.1);
+          -o-transform: scaleX(1.1) scaleY(1.1);
+          transform: scaleX(1.1) scaleY(1.1);
+      }
+    to {
+        -webkit-transform: scaleX(1) scaleY(1);
+        -moz-transform: scaleX(1) scaleY(1);
+        -ms-transform: scaleX(1) scaleY(1);
+        -o-transform: scaleX(1) scaleY(1);
+        transform: scaleX(1) scaleY(1);
+    }
+}
+

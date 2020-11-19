@@ -1,0 +1,32 @@
+.logo{
+    color: black;
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+}
+
+.logo__name-developer{
+    font-size: 46px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+.logo__specialization{
+    font-size: 22px;
+    letter-spacing: .275em;
+    font-weight: 100;
+    color: #a5a5a5;
+    margin-left: 2px;
+    animation: init 2s linear;
+}
+
+@keyframes init {
+    from{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

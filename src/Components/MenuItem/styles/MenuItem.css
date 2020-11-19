@@ -1,0 +1,32 @@
+.navigation-item{
+    display: block;
+}
+
+.navigation-item__link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.navigation-item__line{
+    background-color: black;
+    height: 2px;
+    margin: 0 auto;
+    animation: bottomLine 0.5s ease-out;
+}
+
+@keyframes bottomLine {
+    0%{
+        width: 20%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .navigation-item__link{
+        font-size: 20px;
+    }
+}

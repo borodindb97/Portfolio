@@ -1,0 +1,39 @@
+.footer{
+    position: relative;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.footer__link{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    border: white solid 2px;
+    text-decoration: none;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+
+.footer__text{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    color: white;
+    font-size: 16px;
+}
+
+.footer__link_isHovered{
+    color: black;
+    background-color: white;
+}
+
+@media (max-width: 680px){
+    .footer__text{
+        display: none;
+    }
+}
