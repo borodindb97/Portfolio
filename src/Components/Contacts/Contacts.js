@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { faVk } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import './styles/Contacts.css'
 
@@ -11,22 +11,22 @@ export default class Contacts extends Component{
     constructor(props){
         super(props);
         this.contacts = {
-            number: '+7(919)212-90-04',
+            number: '+7(985)736-80-94',
             email: 'boroda4646@mail.ru'
         };
         this.media = {
             vk: {
-                href: '',
+                href: 'https://vk.com/id210042263',
                 icon: faVk
             },
             telegram: {
-                href: '',
+                href: 'https://t.me/boroda4646',
                 icon: faTelegram
-            },
-            linkedIn: {
-                href: '',
-                icon: faLinkedin
             }
+            // linkedIn: {
+            //     href: '',
+            //     icon: faLinkedin
+            // }
         }
     }
 
@@ -52,11 +52,11 @@ export default class Contacts extends Component{
                             <FontAwesomeIcon icon={this.media.telegram.icon} size='3x' color='#0f89d0'/>
                         </a>
                     </li>
-                    <li className='media__item'>
-                        <a className='media__link' href={this.media.linkedIn.href}>
-                            <FontAwesomeIcon icon={this.media.linkedIn.icon} size='3x' color='#4a76a8'/>
-                        </a>
-                    </li>
+                    {/*<li className='media__item'>*/}
+                        {/*<a className='media__link' href={this.media.linkedIn.href}>*/}
+                            {/*<FontAwesomeIcon icon={this.media.linkedIn.icon} size='3x' color='#4a76a8'/>*/}
+                        {/*</a>*/}
+                    {/*</li>*/}
                 </ul>
             </div>
         )

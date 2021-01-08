@@ -21,11 +21,7 @@ export default class PrintLine extends Component{
                 'HTML and CSS',
                 'Webpack',
                 'Gulp',
-                'GIT',
-                'Jasmine',
-                'Mocha',
-                'Npm',
-                'Bower'
+                'GIT'
             ]
         };
         this.checkState.bind(this)
@@ -122,12 +118,14 @@ export default class PrintLine extends Component{
         return(
             <p className="printLine">
                 {this.state.startString}
-                <span className="printLine__end">
-                    {this.state.endOfStringNow}
-                </span>
-                <span className="printLine__cursor">
-                    {this.state.cursorString}
-                </span>
+                <div className="printLine-endBlock">
+                    <span className="printLine-endBlock__text">
+                        {this.state.endOfStringNow}
+                    </span>
+                    <span className="printLine-endBlock__cursor">
+                        {this.state.cursorString}
+                    </span>
+                </div>
             </p>
         )
     }

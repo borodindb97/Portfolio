@@ -1,3 +1,20 @@
 .printLine{
     font-family: sans-serif;
 }
+
+.printLine-endBlock{
+    display: inline-block;
+}
+
+@media screen and (max-width: 400px){
+    .printLine{
+        height: 36px;
+    }
+
+
+    .printLine-endBlock{
+        display: block;
+        margin: 0 auto;
+    }
+}
+

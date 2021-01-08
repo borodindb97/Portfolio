@@ -11,15 +11,10 @@ import cssPng from '../../Images/Skills/css3.png'
 import htmlPng from '../../Images/Skills/html5.png'
 import webpackPng from '../../Images/Skills/webpack.png'
 import gulpPng from '../../Images/Skills/gulp.png'
-import ajaxPng from '../../Images/Skills/ajax.png'
 import jqueryPng from '../../Images/Skills/jquery.png'
 import gitPng from '../../Images/Skills/git.png'
 import lessPng from '../../Images/Skills/less.png'
 import es6Jpg from '../../Images/Skills/es6.jpg'
-import jasminePng from '../../Images/Skills/jasmine.png'
-import mochaPng from '../../Images/Skills/mocha.png'
-import npmPng from '../../Images/Skills/npm.png'
-import bowerPng from '../../Images/Skills/bower.png'
 import bootstrapPng from '../../Images/Skills/bootstrap.png'
 
 export default class Skills extends Component{
@@ -59,10 +54,6 @@ export default class Skills extends Component{
                 src: gulpPng
             },
             {
-                name: "Ajax",
-                src: ajaxPng
-            },
-            {
                 name: "JQuery",
                 src: jqueryPng
             },
@@ -77,22 +68,6 @@ export default class Skills extends Component{
             {
                 name: "Bootstrap",
                 src: bootstrapPng
-            },
-            {
-                name: "Jasmine",
-                src: jasminePng
-            },
-            {
-                name: "Mocha",
-                src: mochaPng
-            },
-            {
-                name: "Bower",
-                src: bowerPng
-            },
-            {
-                name: "Npm",
-                src: npmPng
             }
         ]
     }

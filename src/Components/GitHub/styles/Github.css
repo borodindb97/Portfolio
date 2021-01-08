@@ -1,0 +1,16 @@
+.github{
+    display: block;
+    width: 120px;
+    height: 30px;
+    border: black solid 2px;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+
+.github_hovered{
+    color: white;
+    background-color: black;
+}
