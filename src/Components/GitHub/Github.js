@@ -5,7 +5,7 @@ export default class Github extends Component{
 
     constructor(props){
         super(props);
-        this.url = 'https://github.com/boroda46';
+        this.url = 'https://github.com/borodindb97';
         this.state = {
             isHovered: false
         }

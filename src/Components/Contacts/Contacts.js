@@ -12,7 +12,7 @@ export default class Contacts extends Component{
         super(props);
         this.contacts = {
             number: '+7(985)736-80-94',
-            email: 'boroda4646@mail.ru'
+            email: 'borodindb97@mail.ru'
         };
         this.media = {
             vk: {
@@ -20,7 +20,7 @@ export default class Contacts extends Component{
                 icon: faVk
             },
             telegram: {
-                href: 'https://t.me/boroda4646',
+                href: 'https://t.me/borodindb97',
                 icon: faTelegram
             }
             // linkedIn: {

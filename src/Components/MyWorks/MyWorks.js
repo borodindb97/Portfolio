@@ -13,6 +13,8 @@ import testTaskMaksImg from '../../Images/works/testTaskMaks.png'
 import wineLifeImg from '../../Images/works/wineLife.png'
 import productLandingImg from '../../Images/works/landing.png'
 import galleryImg from '../../Images/works/gallery.png'
+import mapImg from '../../Images/works/map.png'
+import basketImg from '../../Images/works/basket.png'
 
 import './styles/myWorks.css'
 
@@ -23,67 +25,79 @@ export default class Skills extends Component{
             {
                 img: customTshirtsImg,
                 name: 'Custom T-shirt',
-                link: 'https://boroda46.github.io/Projects/Custom_t-shirts/custom_t-shirts.html',
+                link: 'https://borodindb97.github.io/Projects/Custom_t-shirts/custom_t-shirts.html',
                 adaptive: true
             },
             {
                 img: graphicsEditorImg,
                 name: 'Graphics-editor',
-                link: 'https://boroda46.github.io/Projects/Graphics_editor/Canvas.html',
+                link: 'https://borodindb97.github.io/Projects/Graphics_editor/Canvas.html',
                 adaptive: false
             },
             {
                 img: testTaskTimeWebImg,
                 name: 'Test-task TimeWeb',
-                link: 'https://boroda46.github.io/Projects/Timeweb_test_task/test_task_time_web.html',
+                link: 'https://borodindb97.github.io/Projects/Timeweb_test_task/test_task_time_web.html',
+                adaptive: false
+            },
+            {
+                img: basketImg,
+                name: 'Basket',
+                link: 'https://borodindb97.github.io/Projects/Basket/index.html',
                 adaptive: false
             },
             {
                 img: testTaskMaksImg,
                 name: 'Test-task Web-studio Maks',
-                link: 'https://boroda46.github.io/Projects/Web_studio_maks_test_task/index.html',
+                link: 'https://borodindb97.github.io/Projects/Web_studio_maks_test_task/index.html',
                 adaptive: false
             },
             {
-                img: galleryImg,
-                name: 'Gallery',
-                link: 'https://boroda46.github.io/Projects/Gallery/Gallery.html',
+                img: mapImg,
+                name: 'Map',
+                link: 'https://borodindb97.github.io/Projects/Map/index.html',
                 adaptive: false
             },
             {
                 img: airbookingImg,
                 name: 'Airbooking',
-                link: 'https://boroda46.github.io/Projects/Airbooking/airbooking.html',
+                link: 'https://borodindb97.github.io/Projects/Airbooking/airbooking.html',
                 adaptive: false
             },
             {
                 img: familyFarmsImg,
                 name: 'Family Farm',
-                link: 'https://boroda46.github.io/Projects/Family_farms/family_farms.html',
+                link: 'https://borodindb97.github.io/Projects/Family_farms/family_farms.html',
                 adaptive: false
             },
             {
                 img: healthHouseImg,
                 name: 'HealthHouse',
-                link: 'https://boroda46.github.io/Projects/Health_house/health_house.html',
+                link: 'https://borodindb97.github.io/Projects/Health_house/health_house.html',
+                adaptive: false
+            },
+            {
+                img: galleryImg,
+                name: 'Gallery',
+                link: 'https://borodindb97.github.io/Projects/Gallery/Gallery.html',
                 adaptive: false
             },
             {
                 img: waasImg,
                 name: 'Waas',
-                link: '#',
+                link: 'https://borodindb97.github.io/Projects/WaaS/index.html',
                 adaptive: false
             },
             {
                 img: productLandingImg,
                 name: 'Product-Landing',
-                link: 'https://boroda46.github.io/Projects/Product_landing/index.html',
+                link: 'https://borodindb97.github.io/Projects/Product_landing/index.html',
                 adaptive: false
             },
             {
                 img: wineLifeImg,
                 name: 'WineLife',
-                link: 'https://boroda46.github.io/Projects/WineLife/index.html',
+                link: 'https://borodindb97.github.io/Projects/WineLife/index.html',
                 adaptive: false
             }
         ]
