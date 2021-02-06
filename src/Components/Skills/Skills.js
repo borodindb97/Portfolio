@@ -16,34 +16,40 @@ import gitPng from '../../Images/Skills/git.png'
 import lessPng from '../../Images/Skills/less.png'
 import es6Jpg from '../../Images/Skills/es6.jpg'
 import bootstrapPng from '../../Images/Skills/bootstrap.png'
+import vuePng from '../../Images/Skills/vue.png'
 
 export default class Skills extends Component{
     constructor(props){
         super(props);
         this.skills = [
             {
-                name: "ReactJS",
-                src: reactPng
-            },
-            {
-                name: "Redux",
-                src: reduxPng
-            },
-            {
                 name: "JavaScript",
                 src: jsPng
             },
             {
-                name: "ES6",
-                src: es6Jpg
+                name: "HTML5",
+                src: htmlPng
             },
             {
                 name: "CSS3",
                 src: cssPng
             },
             {
-                name: "HTML5",
-                src: htmlPng
+                name: "ReactJS",
+                src: reactPng
+            },
+
+            {
+                name: "Redux",
+                src: reduxPng
+            },
+            {
+                name: "Vue",
+                src: vuePng
+            },
+            {
+                name: "ES6",
+                src: es6Jpg
             },
             {
                 name: "Webpack",

@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "dmitry-borodin",
     "public": "public",
+    "site": "dmitry-borodin",
     "ignore": [
       "firebase.json",
       "**/.*",

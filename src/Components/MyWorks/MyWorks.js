@@ -15,6 +15,7 @@ import productLandingImg from '../../Images/works/landing.png'
 import galleryImg from '../../Images/works/gallery.png'
 import mapImg from '../../Images/works/map.png'
 import basketImg from '../../Images/works/basket.png'
+import testTaskWebBusterImg from '../../Images/works/web-buster_test_task.png'
 
 import './styles/myWorks.css'
 
@@ -56,6 +57,12 @@ export default class Skills extends Component{
                 img: mapImg,
                 name: 'Map',
                 link: 'https://borodindb97.github.io/Projects/Map/index.html',
+                adaptive: false
+            },
+            {
+                img: testTaskWebBusterImg,
+                name: 'Web-buster test task',
+                link: 'https://borodindb97.github.io/Projects/Web-buster_test-task/index.html',
                 adaptive: false
             },
             {
