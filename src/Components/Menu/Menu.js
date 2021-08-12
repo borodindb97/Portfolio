@@ -13,7 +13,7 @@ export default class Menu extends Component{
                 href: '/'
             },
             {
-                nameItem: 'My Works',
+                nameItem: 'Projects',
                 href: '/myWorks'
             },
             {

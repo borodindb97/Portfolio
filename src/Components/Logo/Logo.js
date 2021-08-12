@@ -5,7 +5,7 @@ import './styles/Logo.css'
 export default class Logo extends Component{
     constructor(props){
         super(props);
-        this.developerName = 'Dmitry Borodin';
+        this.developerName = 'Dmitriy Borodin';
         this.specialization = ['Frontend Developer']
     }
 

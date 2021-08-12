@@ -28,7 +28,7 @@ export default class MenuItem extends Component{
         } else {
             return (
                 <li className='navigation-item' >
-                        <Link className='navigation-item__link' onMouseMove={this.onMouseMoveAndLeaveHandler.bind(this)} to={this.props.href}>{this.props.nameItem}</Link>
+                    <Link className='navigation-item__link' onMouseMove={this.onMouseMoveAndLeaveHandler.bind(this)} to={this.props.href}>{this.props.nameItem}</Link>
                 </li>
             )
         }

@@ -22,7 +22,6 @@ export default class Work extends Component{
     render(){
 
         if (this.state.isHovered){
-            if (this.props.adaptive) {
                 return (
                     <li className='work' onMouseLeave={this.onMouseMoveAndLeaveHandler.bind(this)}>
                         <div className="work-hovered work-hovered_isHovered">
@@ -33,21 +32,7 @@ export default class Work extends Component{
                         <img className='work__img work__img_isHovered' src={this.props.img} alt=""/>
                     </li>
                 )
-            } else {
-                return (
-                    <li className='work' onMouseLeave={this.onMouseMoveAndLeaveHandler.bind(this)}>
-                        <div className="work-hovered work-hovered_isHovered">
-                            <h3 className='work-hovered__name'>{this.props.name}</h3>
-                            <a className='work-hovered__href' href={this.props.link}>Open</a>
-                            <p className="work-hovered__noAdaptive">No responsive design!</p>
-                            {/*<Link className='work-hovered__description' to={this.props.link}>Description </Link>*/}
-                        </div>
-                        <img className='work__img work__img_isHovered' src={this.props.img} alt=""/>
-                    </li>
-                )
-            }
         }  else if (this.state.afterHovered) {
-            if (this.props.adaptive) {
                 return (
                     <li className='work' onMouseMove={this.onMouseMoveAndLeaveHandler.bind(this)}>
                         <div className="work-hovered work-hovered_afterHovered">
@@ -58,19 +43,6 @@ export default class Work extends Component{
                         <img className='work__img work__img_afterHovered' src={this.props.img} alt=""/>
                     </li>
                 )
-            } else {
-                return (
-                    <li className='work' onMouseMove={this.onMouseMoveAndLeaveHandler.bind(this)}>
-                        <div className="work-hovered work-hovered_afterHovered">
-                            <h3 className='work-hovered__name'>{this.props.name}</h3>
-                            <a className='work-hovered__href' href={this.props.link}>Open</a>
-                            <p className="work-hovered__noAdaptive">No responsive design!</p>
-                            {/*<Link className='work-hovered__description' to={this.props.link}>Description </Link>*/}
-                        </div>
-                        <img className='work__img work__img_afterHovered' src={this.props.img} alt=""/>
-                    </li>
-                )
-            }
 
             // return (
             //     <li className='work' onMouseMove={this.onMouseMoveAndLeaveHandler.bind(this)}>
