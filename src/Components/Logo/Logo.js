@@ -6,7 +6,7 @@ export default class Logo extends Component{
     constructor(props){
         super(props);
         this.developerName = 'Dmitriy Borodin';
-        this.specialization = ['Frontend Developer']
+        this.specialization = ['Fullstack Developer']
     }
 
     render(){

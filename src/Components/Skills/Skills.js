@@ -34,6 +34,10 @@ import ejsPng from '../../Images/Skills/ejs.jpg'
 import underscorePng from '../../Images/Skills/underscore.png'
 import expressPng from '../../Images/Skills/express.png'
 import javaPng from '../../Images/Skills/java.png'
+import c_sharpPng from '../../Images/Skills/c#.png'
+import pythonPng from '../../Images/Skills/python.png'
+import djangoPng from '../../Images/Skills/django.png'
+import jinjaPng from '../../Images/Skills/jinja.jpg'
 
 export default class Skills extends Component{
     constructor(props){
@@ -144,6 +148,22 @@ export default class Skills extends Component{
                 {
                     name: "Java",
                     src: javaPng
+                },
+                {
+                    name: "C#",
+                    src: c_sharpPng
+                },
+                {
+                    name: "Python",
+                    src: pythonPng
+                },
+                {
+                    name: "Django",
+                    src: djangoPng
+                },
+                {
+                    name: "Jinja",
+                    src: jinjaPng
                 },
                 {
                     name: "NodeJs",
