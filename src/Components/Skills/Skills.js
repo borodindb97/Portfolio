@@ -38,9 +38,17 @@ import c_sharpPng from '../../Images/Skills/c#.png'
 import pythonPng from '../../Images/Skills/python.png'
 import djangoPng from '../../Images/Skills/django.png'
 import jinjaPng from '../../Images/Skills/jinja.jpg'
+import entityPng from '../../Images/Skills/entity.png'
+import aspnetPng from '../../Images/Skills/aspnet.png'
+import springPng from '../../Images/Skills/spring.png'
+import thymeleafPng from '../../Images/Skills/thymeleaf.png'
+import hibernatePng from '../../Images/Skills/hibernate.jpg'
+import bladePng from '../../Images/Skills/blade.png'
+import laravelPng from '../../Images/Skills/laravel.png'
+import mongodbPng from '../../Images/Skills/mongodb.jpg'
 
-export default class Skills extends Component{
-    constructor(props){
+export default class Skills extends Component {
+    constructor(props) {
         super(props);
         this.state = {
             activeTab: 'Frontend'
@@ -60,7 +68,7 @@ export default class Skills extends Component{
                     src: cssPng
                 },
                 {
-                    name: "ReactJs",
+                    name: "React",
                     src: reactPng
                 },
                 {
@@ -88,7 +96,7 @@ export default class Skills extends Component{
                     src: antdPng,
                 },
                 {
-                    name: "BackboneJs",
+                    name: "Backbone.js",
                     src: backbonejsPng
                 },
                 {
@@ -120,7 +128,7 @@ export default class Skills extends Component{
                     src: underscorePng
                 },
                 {
-                    name: "Bem",
+                    name: "BEM",
                     src: bemPng
                 },
                 {
@@ -138,14 +146,6 @@ export default class Skills extends Component{
             ],
             backend: [
                 {
-                    name: "PHP",
-                    src: phpPng
-                },
-                {
-                    name: "MySql",
-                    src: mySqlPng
-                },
-                {
                     name: "Java",
                     src: javaPng
                 },
@@ -154,24 +154,64 @@ export default class Skills extends Component{
                     src: c_sharpPng
                 },
                 {
+                    name: "PHP",
+                    src: phpPng
+                },
+                {
                     name: "Python",
                     src: pythonPng
-                },
-                {
-                    name: "Django",
-                    src: djangoPng
-                },
-                {
-                    name: "Jinja",
-                    src: jinjaPng
                 },
                 {
                     name: "NodeJs",
                     src: nodejsPng
                 },
                 {
+                    name: "Spring",
+                    src: springPng
+                },
+                {
+                    name: "ASP.NET",
+                    src: aspnetPng
+                },
+                {
+                    name: "Laravel",
+                    src: laravelPng
+                },
+                {
+                    name: "Django",
+                    src: djangoPng
+                },
+                {
                     name: "Express",
                     src: expressPng
+                },
+                {
+                    name: "MySql",
+                    src: mySqlPng
+                },
+                {
+                    name: "MongoDB",
+                    src: mongodbPng
+                },
+                {
+                    name: "Entity",
+                    src: entityPng
+                },
+                {
+                    name: "Hibernate",
+                    src: hibernatePng
+                },
+                {
+                    name: "Thymeleaf",
+                    src: thymeleafPng
+                },
+                {
+                    name: "Blade",
+                    src: bladePng
+                },
+                {
+                    name: "Jinja",
+                    src: jinjaPng
                 },
                 {
                     name: "EJS",
