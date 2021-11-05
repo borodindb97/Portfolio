@@ -46,6 +46,8 @@ import hibernatePng from '../../Images/Skills/hibernate.jpg'
 import bladePng from '../../Images/Skills/blade.png'
 import laravelPng from '../../Images/Skills/laravel.png'
 import mongodbPng from '../../Images/Skills/mongodb.jpg'
+import kotlinPng from '../../Images/Skills/kotlin.jpg'
+import goPng from '../../Images/Skills/go.png'
 
 export default class Skills extends Component {
     constructor(props) {
@@ -164,6 +166,14 @@ export default class Skills extends Component {
                 {
                     name: "NodeJs",
                     src: nodejsPng
+                },
+                {
+                    name: "Go",
+                    src: goPng
+                },
+                {
+                    name: "Kotlin",
+                    src: kotlinPng
                 },
                 {
                     name: "Spring",

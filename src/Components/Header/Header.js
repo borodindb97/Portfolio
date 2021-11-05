@@ -17,7 +17,7 @@ export default class Header extends Component{
                     <Logo/>
                     <PrintLine/>
                     <Menu/>
-                    <Github/>
+                    {/*<Github/>*/}
                 </header>
                 <hr/>
             </>
